@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class P36{
+class P39{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
 
@@ -7,9 +7,9 @@ class P36{
         int d=sc.nextInt();
         System.out.println("enter height of the cylinder");
         int h=sc.nextInt();
-        float r=(float)(d/2);
-      double surfarea=(2*3.14*r)*(r+h);
-      System.out.println("surface area of cylinder: "+surfarea);
-      sc.close();
-    }
+        int r=(d/2);
+        float sarea=(float)(2*3.14*r*(r+h));
+        System.out.println("serface area of cylinder: "+sarea);
+        sc.close();
+}
 }
